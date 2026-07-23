@@ -18,11 +18,14 @@
     background-color:#050f1d;
     color:var(--ink);min-height:100vh;padding:0 0 40px;-webkit-font-smoothing:antialiased;
   }
-  .bg-layer{position:fixed;inset:0;z-index:0;pointer-events:none;
+  .bg-layer{position:fixed;top:0;bottom:0;left:50%;transform:translateX(-50%);
+    width:100%;max-width:760px;z-index:0;pointer-events:none;
     background:
       linear-gradient(180deg,rgba(5,15,29,.6) 0,rgba(5,15,29,.32) 320px,rgba(5,15,29,0) 700px),
-      url('ARTES/bg.jpg') center top / auto 100% no-repeat;
-    background-color:#050f1d}
+      url('ARTES/bg.jpg') center top / cover no-repeat;
+    background-color:#050f1d;
+    -webkit-mask-image:linear-gradient(to right,transparent 0,black 60px,black calc(100% - 60px),transparent 100%);
+    mask-image:linear-gradient(to right,transparent 0,black 60px,black calc(100% - 60px),transparent 100%)}
   .wrap{max-width:760px;margin:0 auto;padding:0 14px;position:relative;z-index:2}
   header{text-align:center;padding:24px 14px 12px}
   header h1{font-size:26px;font-weight:800;letter-spacing:.5px;
@@ -124,7 +127,8 @@
 </div>
 
 <script>
-const DATA={"nome": "e-SpamiReza", "atual": null, "campeonato": {"guerras": 0, "v": 0, "e": 0, "d": 0}, "esc": [], "res": ["KingOfBilada™", "scamador'd'calv", "TH", "TH", "SR- Nathan", "TH", "SR- Lopes", "Paulinho_PH", "SR • PBalestra", "SR • Comunista", "SR • Caibreck ⁴", "RoDrIgOo", "灰心喪志 3"], "rank": []};
+const DATA = {"nome":"e-SpamiReza","atual":null,"campeonato":{"guerras":0,"v":0,"e":0,"d":0},"esc":[],"res":[],"rank":[]};
+
 const stars=s=>{const f=Math.round(s);return "★★★".slice(0,f)+"☆☆☆".slice(0,3-f);};
 
 function render(){
