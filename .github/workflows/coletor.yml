@@ -1,0 +1,78 @@
+name: Coletor E-SPORTS SpamiReza
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'      # a cada 10 minutos
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: coletor
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Rodar coletor
+        env:
+          COC_TOKEN: ${{ secrets.COC_TOKEN }}
+        run: python3 coletor_esports.py
+      - name: Commitar dados (index.html + historico)
+        run: |
+          git config user.name "coletor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          cp index.html /tmp/index.html
+          rm -rf /tmp/historico; [ -d historico ] && cp -r historico /tmp/historico || true
+          for i in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --hard --quiet origin/main
+            cp /tmp/index.html index.html
+            [ -d /tmp/historico ] && { mkdir -p historico && cp -r /tmp/historico/. historico/; } || true
+            git add index.html historico 2>/dev/null || git add index.html
+            if git diff --cached --quiet; then echo "nada mudou"; break; fi
+            git commit --quiet -m "auto: atualiza e-sports"
+            if git push --quiet origin HEAD:main; then echo "push ok"; break; fi
+            echo "push colidiu (tentativa $i), re-sincronizando..."; sleep $((i * 2))
+          done
+
+  deploy:
+    needs: coletar
+    runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Montar site (só index.html + artes usadas)
+        run: |
+          rm -rf _site && mkdir _site
+          cp index.html _site/index.html
+          mkdir -p _site/ARTES
+          for f in bg.jpg FAISCAS.png; do [ -f "ARTES/$f" ] && cp "ARTES/$f" "_site/ARTES/$f" || true; done
+          touch _site/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: d1
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.d1.outcome == 'failure'
+        run: echo "deploy 1 falhou (backend ocupado), aguardando..."; sleep 30
+      - id: d2
+        if: steps.d1.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - if: steps.d1.outcome == 'failure' && steps.d2.outcome == 'failure'
+        run: echo "deploy 2 falhou, aguardando mais..."; sleep 45
