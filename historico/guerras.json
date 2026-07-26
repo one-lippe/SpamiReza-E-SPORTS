@@ -140,7 +140,12 @@
           "tag": "#C8R989YJ",
           "th": 18,
           "pos": 10,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 90
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 95
         },
