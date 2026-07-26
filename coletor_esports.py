@@ -103,11 +103,20 @@ def salvar_historico(out):
         hist = {"guerras": {}}
     a = out.get("atual")
     if a:
+        ORDEM = {"preparation": 0, "inWar": 1, "warEnded": 2}
         atk_novo = sum(len(m["ataques"]) for m in a["membros"])
         ant = hist["guerras"].get(a["id"])
-        atk_ant = sum(len(m["ataques"]) for m in ant["membros"]) if ant else -1
-        if ant is None or atk_novo >= atk_ant:
+        if ant is None:
             hist["guerras"][a["id"]] = a
+        else:
+            atk_ant = sum(len(m["ataques"]) for m in ant["membros"])
+            rank_novo = ORDEM.get(a.get("state"), -1)
+            rank_ant = ORDEM.get(ant.get("state"), -1)
+            # nunca deixa a guerra "voltar" de estado (protege contra cache
+            # desatualizado da API do Clash retornando um snapshot antigo) —
+            # só atualiza se o estado avançou, ou se ficou igual e não perdeu ataques.
+            if rank_novo > rank_ant or (rank_novo == rank_ant and atk_novo >= atk_ant):
+                hist["guerras"][a["id"]] = a
     fp.write_text(json.dumps(hist, ensure_ascii=False, indent=2), encoding="utf-8")
     return hist
 
@@ -158,6 +167,14 @@ def build_data_js(out, hist):
     j = lambda val: json.dumps(val, ensure_ascii=False)
     rank, campeonato = agregar(hist, out["elenco"])
     a = out.get("atual")
+    if a:
+        # usa a versão mais "avançada" entre o fetch atual e o que já está no
+        # histórico (protege a UI contra um snapshot desatualizado/cacheado da
+        # API voltar a mostrar "preparação" numa guerra que já está em batalha)
+        ORDEM = {"preparation": 0, "inWar": 1, "warEnded": 2}
+        salvo = hist["guerras"].get(a["id"])
+        if salvo and ORDEM.get(salvo.get("state"), -1) > ORDEM.get(a.get("state"), -1):
+            a = salvo
     if a and a["state"] in ("preparation", "inWar"):
         esc = [m["nome"] for m in a["membros"]]
         esc_tags = {m["tag"] for m in a["membros"]}
