@@ -1,3 +1,151 @@
 {
-  "guerras": {}
+  "guerras": {
+    "71fa73c7e700": {
+      "id": "71fa73c7e700",
+      "state": "preparation",
+      "teamSize": 15,
+      "adversario": "BT OS RENEGADOS",
+      "prep": "20260725T232250.000Z",
+      "inicio": "20260726T002250.000Z",
+      "fim": "20260726T162250.000Z",
+      "membros": [
+        {
+          "nome": "『AVG』Zod ♔",
+          "tag": "#GP8PQQ",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • JON SNOW",
+          "tag": "#LYV2J2LU",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Giovanelli",
+          "tag": "#PJ0YJLGJ",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR - JON SNOW 2",
+          "tag": "#9VV909C89",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Dog Apollo",
+          "tag": "#YJ9R2GPJG",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • InTheDark☆",
+          "tag": "#PQRRG2YCP",
+          "th": 18,
+          "pos": 6,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "KingOfBilada™",
+          "tag": "#92PQV82G0",
+          "th": 18,
+          "pos": 7,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Jan",
+          "tag": "#2899CRJG",
+          "th": 18,
+          "pos": 8,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "×Darkøn×",
+          "tag": "#VP2GP0L9",
+          "th": 18,
+          "pos": 9,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Levi_Neiva",
+          "tag": "#C8R989YJ",
+          "th": 18,
+          "pos": 10,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Nesk",
+          "tag": "#99220V0Q8",
+          "th": 18,
+          "pos": 11,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "GSAzevedo30",
+          "tag": "#CJLVVL9L",
+          "th": 18,
+          "pos": 12,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 13,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Sr • Pbalestra",
+          "tag": "#2YP8QV8J9",
+          "th": 18,
+          "pos": 14,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Dalton",
+          "tag": "#288909L8R",
+          "th": 18,
+          "pos": 15,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
+    }
+  }
 }
