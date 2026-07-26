@@ -79,7 +79,12 @@
           "tag": "#PQRRG2YCP",
           "th": 18,
           "pos": 6,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": 1,
           "def_destr": 94
         },
@@ -190,9 +195,14 @@
           "tag": "#288909L8R",
           "th": 18,
           "pos": 15,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 3,
+          "def_destr": 100
         }
       ],
       "resultado": null
