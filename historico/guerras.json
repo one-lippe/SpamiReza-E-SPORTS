@@ -60,8 +60,8 @@
           "th": 18,
           "pos": 6,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 94
         },
         {
           "nome": "KingOfBilada™",
