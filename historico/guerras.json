@@ -2,7 +2,7 @@
   "guerras": {
     "71fa73c7e700": {
       "id": "71fa73c7e700",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 15,
       "adversario": "BT OS RENEGADOS",
       "prep": "20260725T232250.000Z",
@@ -15,8 +15,8 @@
           "th": 18,
           "pos": 1,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 82
         },
         {
           "nome": "SR • JON SNOW",
@@ -24,8 +24,8 @@
           "th": 18,
           "pos": 2,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 97
         },
         {
           "nome": "SR • Giovanelli",
@@ -33,8 +33,8 @@
           "th": 18,
           "pos": 3,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 87
         },
         {
           "nome": "SR - JON SNOW 2",
@@ -42,8 +42,8 @@
           "th": 18,
           "pos": 4,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "Dog Apollo",
@@ -51,8 +51,8 @@
           "th": 18,
           "pos": 5,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • InTheDark☆",
