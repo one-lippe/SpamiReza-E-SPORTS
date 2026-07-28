@@ -221,6 +221,153 @@
         }
       ],
       "resultado": "d"
+    },
+    "59855ac87c52": {
+      "id": "59855ac87c52",
+      "state": "inWar",
+      "teamSize": 15,
+      "adversario": "Heist to War",
+      "prep": "20260728T000740.000Z",
+      "inicio": "20260728T003740.000Z",
+      "fim": "20260728T163740.000Z",
+      "membros": [
+        {
+          "nome": "『AVG』Zod ♔",
+          "tag": "#GP8PQQ",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": 2,
+          "def_destr": 91
+        },
+        {
+          "nome": "SR • JON SNOW",
+          "tag": "#LYV2J2LU",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Giovanelli",
+          "tag": "#PJ0YJLGJ",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": 2,
+          "def_destr": 85
+        },
+        {
+          "nome": "tozim",
+          "tag": "#9G22U9U2Y",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": 2,
+          "def_destr": 87
+        },
+        {
+          "nome": "Dog Apollo",
+          "tag": "#YJ9R2GPJG",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": 3,
+          "def_destr": 100
+        },
+        {
+          "nome": "SR - JON SNOW 2",
+          "tag": "#9VV909C89",
+          "th": 18,
+          "pos": 6,
+          "ataques": [],
+          "def_estrelas": 1,
+          "def_destr": 93
+        },
+        {
+          "nome": "SR • InTheDark☆",
+          "tag": "#PQRRG2YCP",
+          "th": 18,
+          "pos": 7,
+          "ataques": [],
+          "def_estrelas": 1,
+          "def_destr": 86
+        },
+        {
+          "nome": "KingOfBilada™",
+          "tag": "#92PQV82G0",
+          "th": 18,
+          "pos": 8,
+          "ataques": [],
+          "def_estrelas": 3,
+          "def_destr": 100
+        },
+        {
+          "nome": "Jan",
+          "tag": "#2899CRJG",
+          "th": 18,
+          "pos": 9,
+          "ataques": [],
+          "def_estrelas": 2,
+          "def_destr": 92
+        },
+        {
+          "nome": "Levi_Neiva",
+          "tag": "#C8R989YJ",
+          "th": 18,
+          "pos": 10,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Nesk",
+          "tag": "#99220V0Q8",
+          "th": 18,
+          "pos": 11,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 12,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "MAJ0R FiV3",
+          "tag": "#LCR9YQGYY",
+          "th": 18,
+          "pos": 13,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Sr • Pbalestra",
+          "tag": "#2YP8QV8J9",
+          "th": 18,
+          "pos": 14,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Dalton",
+          "tag": "#288909L8R",
+          "th": 18,
+          "pos": 15,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
