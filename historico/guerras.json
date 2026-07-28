@@ -334,7 +334,12 @@
           "tag": "#92PQV82G0",
           "th": 18,
           "pos": 8,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 96
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
