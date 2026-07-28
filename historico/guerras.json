@@ -295,7 +295,12 @@
           "tag": "#PQRRG2YCP",
           "th": 18,
           "pos": 7,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": 1,
           "def_destr": 86
         },
@@ -370,8 +375,8 @@
               "destr": 88
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 92
         },
         {
           "nome": "Sr • Pbalestra",
@@ -392,7 +397,12 @@
           "tag": "#288909L8R",
           "th": 18,
           "pos": 15,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 78
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         }
