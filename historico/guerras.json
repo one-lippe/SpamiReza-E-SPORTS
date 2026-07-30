@@ -443,6 +443,63 @@
         }
       ],
       "resultado": "v"
+    },
+    "77e15a6f3ef0": {
+      "id": "77e15a6f3ef0",
+      "state": "preparation",
+      "teamSize": 5,
+      "adversario": "Game of Trones",
+      "prep": "20260730T124029.000Z",
+      "inicio": "20260731T114029.000Z",
+      "fim": "20260801T114029.000Z",
+      "membros": [
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Sr • Pbalestra",
+          "tag": "#2YP8QV8J9",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Balestra",
+          "tag": "#8UJY9C8RQ",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "scamador'd'calv",
+          "tag": "#QUP0R2CJU",
+          "th": 15,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • PBalestra",
+          "tag": "#GCJYYLLG8",
+          "th": 9,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
