@@ -446,7 +446,7 @@
     },
     "77e15a6f3ef0": {
       "id": "77e15a6f3ef0",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "Game of Trones",
       "prep": "20260730T124029.000Z",
@@ -535,7 +535,7 @@
           "def_destr": 100
         }
       ],
-      "resultado": null
+      "resultado": "e"
     }
   }
 }
