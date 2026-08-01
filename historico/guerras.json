@@ -494,7 +494,16 @@
           "tag": "#8UJY9C8RQ",
           "th": 18,
           "pos": 3,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 82
+            },
+            {
+              "estrelas": 2,
+              "destr": 91
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
