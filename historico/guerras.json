@@ -536,6 +536,153 @@
         }
       ],
       "resultado": "e"
+    },
+    "554b7c324121": {
+      "id": "554b7c324121",
+      "state": "preparation",
+      "teamSize": 15,
+      "adversario": "BLACK Bee",
+      "prep": "20260805T004407.000Z",
+      "inicio": "20260805T234407.000Z",
+      "fim": "20260806T234407.000Z",
+      "membros": [
+        {
+          "nome": "Nesk",
+          "tag": "#99220V0Q8",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Neskau",
+          "tag": "#P8GLGPRP",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "PaiDeFamilia",
+          "tag": "#2GCJ8QC92",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Psico 2k25",
+          "tag": "#Q2UJJ89VG",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "ayumatsui",
+          "tag": "#QPJ209J89",
+          "th": 17,
+          "pos": 6,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Fernandes^",
+          "tag": "#8UCVRGCLQ",
+          "th": 17,
+          "pos": 7,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Eazy-E",
+          "tag": "#2L0JJJCLJ",
+          "th": 16,
+          "pos": 8,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "RoDrIgOo",
+          "tag": "#220G20QP0",
+          "th": 15,
+          "pos": 9,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "scamador'd'calv",
+          "tag": "#QUP0R2CJU",
+          "th": 15,
+          "pos": 10,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Nesquick",
+          "tag": "#QRGRY0GYG",
+          "th": 13,
+          "pos": 11,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Caibreck ⁴",
+          "tag": "#YPR2QG9RQ",
+          "th": 13,
+          "pos": 12,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Fer TH9",
+          "tag": "#2URRGV8C9",
+          "th": 13,
+          "pos": 13,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • C∆mbUri",
+          "tag": "#QVCJGJU8G",
+          "th": 14,
+          "pos": 14,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • PBalestra",
+          "tag": "#GCJYYLLG8",
+          "th": 9,
+          "pos": 15,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
