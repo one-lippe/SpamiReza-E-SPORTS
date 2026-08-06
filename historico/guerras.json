@@ -606,17 +606,26 @@
           "th": 18,
           "pos": 4,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 65
         },
         {
           "nome": "Psico 2k25",
           "tag": "#Q2UJJ89VG",
           "th": 18,
           "pos": 5,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 2,
+          "def_destr": 76
         },
         {
           "nome": "ayumatsui",
