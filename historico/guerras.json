@@ -544,7 +544,7 @@
       "adversario": "BLACK Bee",
       "prep": "20260805T004407.000Z",
       "inicio": "20260805T234407.000Z",
-      "fim": "20260806T234407.000Z",
+      "fim": "20260807T001419.000Z",
       "membros": [
         {
           "nome": "Nesk",
@@ -561,8 +561,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 60
         },
         {
           "nome": "Neskau",
@@ -597,8 +597,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 69
         },
         {
           "nome": "PaiDeFamilia",
@@ -623,7 +623,16 @@
           "tag": "#QPJ209J89",
           "th": 17,
           "pos": 6,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -632,7 +641,16 @@
           "tag": "#8UCVRGCLQ",
           "th": 17,
           "pos": 7,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 1,
+              "destr": 49
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -651,8 +669,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 89
         },
         {
           "nome": "RoDrIgOo",
@@ -660,8 +678,8 @@
           "th": 15,
           "pos": 9,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "scamador'd'calv",
