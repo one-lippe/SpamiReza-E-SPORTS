@@ -539,7 +539,7 @@
     },
     "554b7c324121": {
       "id": "554b7c324121",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 15,
       "adversario": "BLACK Bee",
       "prep": "20260805T004407.000Z",
