@@ -651,8 +651,8 @@
               "destr": 49
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 69
         },
         {
           "nome": "Eazy-E",
@@ -714,8 +714,8 @@
           "th": 13,
           "pos": 12,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 62
         },
         {
           "nome": "Fer TH9",
@@ -723,15 +723,24 @@
           "th": 13,
           "pos": 13,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 83
         },
         {
           "nome": "SR • C∆mbUri",
           "tag": "#QVCJGJU8G",
           "th": 14,
           "pos": 14,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 1,
+              "destr": 53
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
