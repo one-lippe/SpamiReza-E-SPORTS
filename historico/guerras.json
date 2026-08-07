@@ -539,7 +539,7 @@
     },
     "554b7c324121": {
       "id": "554b7c324121",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 15,
       "adversario": "BLACK Bee",
       "prep": "20260805T004407.000Z",
@@ -579,8 +579,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 0,
+          "def_destr": 48
         },
         {
           "nome": "LEANDRO",
@@ -605,7 +605,16 @@
           "tag": "#2GCJ8QC92",
           "th": 18,
           "pos": 4,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 12
+            },
+            {
+              "estrelas": 1,
+              "destr": 14
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 65
         },
@@ -642,8 +651,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 97
         },
         {
           "nome": "Fernandes^",
@@ -696,8 +705,8 @@
           "th": 15,
           "pos": 10,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "Nesquick",
@@ -714,8 +723,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • Caibreck ⁴",
@@ -732,8 +741,8 @@
           "th": 13,
           "pos": 13,
           "ataques": [],
-          "def_estrelas": 1,
-          "def_destr": 83
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • C∆mbUri",
@@ -750,8 +759,8 @@
               "destr": 53
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • PBalestra",
@@ -772,7 +781,7 @@
           "def_destr": null
         }
       ],
-      "resultado": null
+      "resultado": "v"
     }
   }
 }
