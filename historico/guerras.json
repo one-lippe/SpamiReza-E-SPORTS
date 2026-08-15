@@ -797,7 +797,12 @@
           "tag": "#YJ9R2GPJG",
           "th": 18,
           "pos": 1,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 82
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
