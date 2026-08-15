@@ -825,7 +825,12 @@
           "tag": "#9G22U9U2Y",
           "th": 18,
           "pos": 3,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 92
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 93
         },
