@@ -875,7 +875,12 @@
           "tag": "#CJLVVL9L",
           "th": 18,
           "pos": 8,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 76
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
