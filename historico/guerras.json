@@ -785,7 +785,7 @@
     },
     "ed74025b9e34": {
       "id": "ed74025b9e34",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 10,
       "adversario": "RezaScamandu",
       "prep": "20260814T234757.000Z",
@@ -833,7 +833,12 @@
           "tag": "#C8R989YJ",
           "th": 18,
           "pos": 5,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
