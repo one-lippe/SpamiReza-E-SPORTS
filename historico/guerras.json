@@ -785,7 +785,7 @@
     },
     "ed74025b9e34": {
       "id": "ed74025b9e34",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 10,
       "adversario": "RezaScamandu",
       "prep": "20260814T234757.000Z",
@@ -928,7 +928,7 @@
           "def_destr": 100
         }
       ],
-      "resultado": null
+      "resultado": "v"
     }
   }
 }
