@@ -803,8 +803,8 @@
               "destr": 82
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • Giovanelli",
