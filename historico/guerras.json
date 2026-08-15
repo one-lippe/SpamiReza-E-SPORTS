@@ -845,8 +845,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 78
         },
         {
           "nome": "Levi_Neiva",
