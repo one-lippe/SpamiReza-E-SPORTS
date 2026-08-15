@@ -806,7 +806,12 @@
           "tag": "#PJ0YJLGJ",
           "th": 18,
           "pos": 2,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 97
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -848,8 +853,8 @@
           "th": 18,
           "pos": 6,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "LEANDRO",
@@ -857,8 +862,8 @@
           "th": 18,
           "pos": 7,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "GSAzevedo30",
@@ -883,9 +888,14 @@
           "tag": "#90GRYGJVP",
           "th": 18,
           "pos": 10,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 3,
+          "def_destr": 100
         }
       ],
       "resultado": null
