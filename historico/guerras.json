@@ -866,7 +866,12 @@
           "tag": "#QPCRCR8VY",
           "th": 18,
           "pos": 7,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 98
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
