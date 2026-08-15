@@ -782,6 +782,108 @@
         }
       ],
       "resultado": "v"
+    },
+    "ed74025b9e34": {
+      "id": "ed74025b9e34",
+      "state": "preparation",
+      "teamSize": 10,
+      "adversario": "RezaScamandu",
+      "prep": "20260814T234757.000Z",
+      "inicio": "20260815T004757.000Z",
+      "fim": "20260815T164757.000Z",
+      "membros": [
+        {
+          "nome": "Dog Apollo",
+          "tag": "#YJ9R2GPJG",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Giovanelli",
+          "tag": "#PJ0YJLGJ",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "tozim",
+          "tag": "#9G22U9U2Y",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Jan",
+          "tag": "#2899CRJG",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Levi_Neiva",
+          "tag": "#C8R989YJ",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "KingOfBilada™",
+          "tag": "#92PQV82G0",
+          "th": 18,
+          "pos": 6,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 7,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "GSAzevedo30",
+          "tag": "#CJLVVL9L",
+          "th": 18,
+          "pos": 8,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Balestra",
+          "tag": "#8UJY9C8RQ",
+          "th": 18,
+          "pos": 9,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Levi_Neiva 2",
+          "tag": "#90GRYGJVP",
+          "th": 18,
+          "pos": 10,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
