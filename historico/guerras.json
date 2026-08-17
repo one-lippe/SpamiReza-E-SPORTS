@@ -929,6 +929,63 @@
         }
       ],
       "resultado": "v"
+    },
+    "57f7a93d1bae": {
+      "id": "57f7a93d1bae",
+      "state": "preparation",
+      "teamSize": 5,
+      "adversario": "RezaScamandu",
+      "prep": "20260817T223748.000Z",
+      "inicio": "20260818T003748.000Z",
+      "fim": "20260818T123748.000Z",
+      "membros": [
+        {
+          "nome": "Dog Apollo",
+          "tag": "#YJ9R2GPJG",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Nesk",
+          "tag": "#99220V0Q8",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "☆VILA DO PX ツ",
+          "tag": "#8PUL8JPC",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "GSAzevedo30",
+          "tag": "#CJLVVL9L",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
