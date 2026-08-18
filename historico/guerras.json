@@ -932,7 +932,7 @@
     },
     "57f7a93d1bae": {
       "id": "57f7a93d1bae",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 5,
       "adversario": "RezaScamandu",
       "prep": "20260817T223748.000Z",
@@ -962,16 +962,26 @@
           "tag": "#QPCRCR8VY",
           "th": 18,
           "pos": 3,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "☆VILA DO PX ツ",
           "tag": "#8PUL8JPC",
           "th": 18,
           "pos": 4,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 72
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -980,7 +990,12 @@
           "tag": "#CJLVVL9L",
           "th": 18,
           "pos": 5,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 91
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         }
