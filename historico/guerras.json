@@ -953,7 +953,12 @@
           "tag": "#99220V0Q8",
           "th": 18,
           "pos": 2,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 90
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
