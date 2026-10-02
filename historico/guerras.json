@@ -1022,8 +1022,8 @@
           "th": 18,
           "pos": 1,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 54
         },
         {
           "nome": "LEANDRO",
