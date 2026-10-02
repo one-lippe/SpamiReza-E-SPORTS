@@ -1009,7 +1009,7 @@
     },
     "8f1afe4e932a": {
       "id": "8f1afe4e932a",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "마술사",
       "prep": "20260930T222447.000Z",
@@ -1021,7 +1021,16 @@
           "tag": "#C8R989YJ",
           "th": 18,
           "pos": 1,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 49
+            },
+            {
+              "estrelas": 0,
+              "destr": 6
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 54
         },
@@ -1084,12 +1093,21 @@
           "tag": "#90GRYGJVP",
           "th": 18,
           "pos": 5,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 47
+            },
+            {
+              "estrelas": 1,
+              "destr": 10
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 59
         }
       ],
-      "resultado": null
+      "resultado": "v"
     }
   }
 }
