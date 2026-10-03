@@ -1108,6 +1108,63 @@
         }
       ],
       "resultado": "v"
+    },
+    "dd75b9d3379a": {
+      "id": "dd75b9d3379a",
+      "state": "preparation",
+      "teamSize": 5,
+      "adversario": "flwrs",
+      "prep": "20261003T140150.000Z",
+      "inicio": "20261004T130150.000Z",
+      "fim": "20261005T130150.000Z",
+      "membros": [
+        {
+          "nome": "Levi_Neiva",
+          "tag": "#C8R989YJ",
+          "th": 18,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "LEANDRO",
+          "tag": "#QPCRCR8VY",
+          "th": 18,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Sr • Pbalestra",
+          "tag": "#2YP8QV8J9",
+          "th": 18,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • Balestra",
+          "tag": "#8UJY9C8RQ",
+          "th": 18,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "Levi_Neiva 2",
+          "tag": "#90GRYGJVP",
+          "th": 18,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
