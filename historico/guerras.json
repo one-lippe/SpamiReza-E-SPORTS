@@ -1132,7 +1132,16 @@
           "tag": "#QPCRCR8VY",
           "th": 18,
           "pos": 2,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 1,
+              "destr": 97
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -1141,7 +1150,16 @@
           "tag": "#2YP8QV8J9",
           "th": 18,
           "pos": 3,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         },
@@ -1150,7 +1168,16 @@
           "tag": "#8UJY9C8RQ",
           "th": 18,
           "pos": 4,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": 2,
           "def_destr": 60
         },
