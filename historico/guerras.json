@@ -1111,7 +1111,7 @@
     },
     "dd75b9d3379a": {
       "id": "dd75b9d3379a",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "flwrs",
       "prep": "20261003T140150.000Z",
@@ -1123,7 +1123,16 @@
           "tag": "#C8R989YJ",
           "th": 18,
           "pos": 1,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 52
+            },
+            {
+              "estrelas": 1,
+              "destr": 46
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
@@ -1160,8 +1169,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": 2,
-          "def_destr": 91
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • Balestra",
@@ -1178,20 +1187,29 @@
               "destr": 100
             }
           ],
-          "def_estrelas": 2,
-          "def_destr": 87
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "Levi_Neiva 2",
           "tag": "#90GRYGJVP",
           "th": 18,
           "pos": 5,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 1,
+              "destr": 53
+            },
+            {
+              "estrelas": 1,
+              "destr": 42
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         }
       ],
-      "resultado": null
+      "resultado": "e"
     }
   }
 }
