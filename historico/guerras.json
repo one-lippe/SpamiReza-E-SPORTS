@@ -1395,9 +1395,18 @@
           "tag": "#C8R989YJ",
           "th": 18,
           "pos": 1,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • JON SNOW",
@@ -1405,8 +1414,8 @@
           "th": 18,
           "pos": 2,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR - JON SNOW 2",
@@ -1414,15 +1423,24 @@
           "th": 18,
           "pos": 3,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "LEANDRO",
           "tag": "#QPCRCR8VY",
           "th": 18,
           "pos": 4,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 80
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
@@ -1431,9 +1449,18 @@
           "tag": "#2YP8QV8J9",
           "th": 18,
           "pos": 5,
-          "ataques": [],
-          "def_estrelas": 2,
-          "def_destr": 63
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 2,
+              "destr": 79
+            }
+          ],
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • Balestra",
@@ -1458,7 +1485,16 @@
           "tag": "#90GRYGJVP",
           "th": 18,
           "pos": 7,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 2,
+              "destr": 96
+            },
+            {
+              "estrelas": 1,
+              "destr": 7
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
@@ -1468,8 +1504,8 @@
           "th": 13,
           "pos": 8,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "nesquick",
