@@ -1383,7 +1383,7 @@
     },
     "4c081102884f": {
       "id": "4c081102884f",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 10,
       "adversario": "OSMANLI KS 2",
       "prep": "20261007T221141.000Z",
@@ -1423,8 +1423,8 @@
           "th": 18,
           "pos": 4,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "Sr • Pbalestra",
@@ -1432,17 +1432,26 @@
           "th": 18,
           "pos": 5,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 63
         },
         {
           "nome": "SR • Balestra",
           "tag": "#8UJY9C8RQ",
           "th": 18,
           "pos": 6,
-          "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
+          "def_estrelas": 2,
+          "def_destr": 94
         },
         {
           "nome": "Levi_Neiva 2",
@@ -1450,8 +1459,8 @@
           "th": 18,
           "pos": 7,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • Caibreck ⁴",
@@ -1476,7 +1485,16 @@
           "tag": "#GCJYYLLG8",
           "th": 11,
           "pos": 10,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         }
