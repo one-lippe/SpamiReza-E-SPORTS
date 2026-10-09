@@ -1383,7 +1383,7 @@
     },
     "4c081102884f": {
       "id": "4c081102884f",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 10,
       "adversario": "OSMANLI KS 2",
       "prep": "20261007T221141.000Z",
@@ -1477,8 +1477,8 @@
               "destr": 100
             }
           ],
-          "def_estrelas": 2,
-          "def_destr": 94
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "Levi_Neiva 2",
@@ -1513,8 +1513,8 @@
           "th": 11,
           "pos": 9,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • PBalestra",
@@ -1531,11 +1531,11 @@
               "destr": 100
             }
           ],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 0,
+          "def_destr": 37
         }
       ],
-      "resultado": null
+      "resultado": "d"
     }
   }
 }
