@@ -1539,7 +1539,7 @@
     },
     "1733e0f21fe4": {
       "id": "1733e0f21fe4",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 5,
       "adversario": "اصدقه الكنتاره",
       "prep": "20261015T234439.000Z",
@@ -1585,7 +1585,7 @@
         {
           "nome": "SR • JON SNOW 3",
           "tag": "#R0GVR0RRG",
-          "th": 7,
+          "th": 8,
           "pos": 5,
           "ataques": [],
           "def_estrelas": null,
