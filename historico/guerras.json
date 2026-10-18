@@ -1539,7 +1539,7 @@
     },
     "1733e0f21fe4": {
       "id": "1733e0f21fe4",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "اصدقه الكنتاره",
       "prep": "20261015T234439.000Z",
@@ -1592,7 +1592,7 @@
           "def_destr": null
         }
       ],
-      "resultado": null
+      "resultado": "e"
     }
   }
 }
