@@ -1593,6 +1593,63 @@
         }
       ],
       "resultado": "e"
+    },
+    "5bfb11a7a593": {
+      "id": "5bfb11a7a593",
+      "state": "preparation",
+      "teamSize": 5,
+      "adversario": "ولاد الحلال",
+      "prep": "20261019T112740.000Z",
+      "inicio": "20261020T102740.000Z",
+      "fim": "20261021T102740.000Z",
+      "membros": [
+        {
+          "nome": "RoDrIgOo",
+          "tag": "#220G20QP0",
+          "th": 15,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "灰心喪志 3",
+          "tag": "#QVC2GPGRU",
+          "th": 13,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "nesquick",
+          "tag": "#29RJY0RLU",
+          "th": 11,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • PBalestra",
+          "tag": "#GCJYYLLG8",
+          "th": 11,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • JON SNOW 3",
+          "tag": "#R0GVR0RRG",
+          "th": 8,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
