@@ -1653,12 +1653,12 @@
     },
     "0f88afb63450": {
       "id": "0f88afb63450",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "ولاد الحلال",
       "prep": "20261019T112740.000Z",
       "inicio": "20261020T110351.000Z",
-      "fim": "20261021T110351.000Z",
+      "fim": "20261021T112939.000Z",
       "membros": [
         {
           "nome": "RoDrIgOo",
@@ -1706,7 +1706,7 @@
           "def_destr": 100
         }
       ],
-      "resultado": null
+      "resultado": "d"
     }
   }
 }
