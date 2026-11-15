@@ -1710,7 +1710,7 @@
     },
     "31f8c6c69de0": {
       "id": "31f8c6c69de0",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "c a m p e o n",
       "prep": "20261113T205149.000Z",
@@ -1773,11 +1773,11 @@
           "th": 11,
           "pos": 5,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 77
         }
       ],
-      "resultado": null
+      "resultado": "d"
     }
   }
 }
