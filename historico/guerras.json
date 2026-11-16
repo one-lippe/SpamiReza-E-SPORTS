@@ -1835,6 +1835,63 @@
         }
       ],
       "resultado": null
+    },
+    "5a55fbc6255d": {
+      "id": "5a55fbc6255d",
+      "state": "preparation",
+      "teamSize": 5,
+      "adversario": "sTraWHatClaSh",
+      "prep": "20261115T235058.000Z",
+      "inicio": "20261116T233815.000Z",
+      "fim": "20261117T233815.000Z",
+      "membros": [
+        {
+          "nome": "RoDrIgOo",
+          "tag": "#220G20QP0",
+          "th": 15,
+          "pos": 1,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "灰心喪志 3",
+          "tag": "#QVC2GPGRU",
+          "th": 13,
+          "pos": 2,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • C∆mbUri",
+          "tag": "#QVCJGJU8G",
+          "th": 14,
+          "pos": 3,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • JON SNOW 3",
+          "tag": "#R0GVR0RRG",
+          "th": 15,
+          "pos": 4,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        },
+        {
+          "nome": "SR • PBalestra",
+          "tag": "#GCJYYLLG8",
+          "th": 12,
+          "pos": 5,
+          "ataques": [],
+          "def_estrelas": null,
+          "def_destr": null
+        }
+      ],
+      "resultado": null
     }
   }
 }
