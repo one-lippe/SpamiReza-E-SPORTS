@@ -1895,7 +1895,16 @@
           "tag": "#GCJYYLLG8",
           "th": 12,
           "pos": 5,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 2,
+              "destr": 59
+            }
+          ],
           "def_estrelas": null,
           "def_destr": null
         }
