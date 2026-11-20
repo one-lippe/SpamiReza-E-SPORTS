@@ -1926,8 +1926,8 @@
           "th": 15,
           "pos": 1,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 94
         },
         {
           "nome": "SR • C∆mbUri",
@@ -1935,8 +1935,8 @@
           "th": 14,
           "pos": 2,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "灰心喪志 3",
