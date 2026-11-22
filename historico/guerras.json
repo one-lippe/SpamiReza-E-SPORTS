@@ -2028,8 +2028,8 @@
           "th": 12,
           "pos": 5,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 1,
+          "def_destr": 82
         }
       ],
       "resultado": null
