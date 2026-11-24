@@ -2036,7 +2036,7 @@
     },
     "c4697ae301c0": {
       "id": "c4697ae301c0",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 5,
       "adversario": "LOS MIJOS",
       "prep": "20261123T004613.000Z",
@@ -2049,8 +2049,8 @@
           "th": 15,
           "pos": 1,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 2,
+          "def_destr": 69
         },
         {
           "nome": "SR • C∆mbUri",
@@ -2058,8 +2058,8 @@
           "th": 14,
           "pos": 2,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "灰心喪志 3",
@@ -2067,8 +2067,8 @@
           "th": 13,
           "pos": 3,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • JON SNOW 3",
@@ -2076,8 +2076,8 @@
           "th": 15,
           "pos": 4,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         },
         {
           "nome": "SR • PBalestra",
@@ -2085,8 +2085,8 @@
           "th": 12,
           "pos": 5,
           "ataques": [],
-          "def_estrelas": null,
-          "def_destr": null
+          "def_estrelas": 3,
+          "def_destr": 100
         }
       ],
       "resultado": null
