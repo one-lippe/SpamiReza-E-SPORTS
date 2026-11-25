@@ -2036,7 +2036,7 @@
     },
     "c4697ae301c0": {
       "id": "c4697ae301c0",
-      "state": "inWar",
+      "state": "warEnded",
       "teamSize": 5,
       "adversario": "LOS MIJOS",
       "prep": "20261123T004613.000Z",
@@ -2075,7 +2075,16 @@
           "tag": "#R0GVR0RRG",
           "th": 15,
           "pos": 4,
-          "ataques": [],
+          "ataques": [
+            {
+              "estrelas": 3,
+              "destr": 100
+            },
+            {
+              "estrelas": 3,
+              "destr": 100
+            }
+          ],
           "def_estrelas": 3,
           "def_destr": 100
         },
@@ -2089,7 +2098,7 @@
           "def_destr": 100
         }
       ],
-      "resultado": null
+      "resultado": "d"
     }
   }
 }
