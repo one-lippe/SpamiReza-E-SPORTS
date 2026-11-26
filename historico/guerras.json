@@ -2102,7 +2102,7 @@
     },
     "9a6d10a4cb09": {
       "id": "9a6d10a4cb09",
-      "state": "preparation",
+      "state": "inWar",
       "teamSize": 5,
       "adversario": "Tro_Rebu",
       "prep": "20261125T013021.000Z",
